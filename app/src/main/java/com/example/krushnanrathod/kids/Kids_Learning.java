@@ -29,16 +29,18 @@ public class Kids_Learning extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.English:
-                Intent i=new Intent( Kids_Learning.this, englearning.class );
+                Intent i=new Intent( Kids_Learning.this, Eng_Learning.class );
+                overridePendingTransition(R.anim.alpha, R.anim.alpha);
                 startActivity( i );
                 break;
 
             case R.id.Hindi:
-                Intent i1=new Intent( Kids_Learning.this, hinlearning.class );
+                Intent i1=new Intent( Kids_Learning.this, Hin_Learning.class );
+                overridePendingTransition(R.anim.alpha, R.anim.alpha);
                 startActivity( i1 );
-
                 break;
 
         }
     }
+
 }

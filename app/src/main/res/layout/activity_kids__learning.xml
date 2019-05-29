@@ -4,53 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backg"
+    android:background="@drawable/vimage1"
     tools:context=".Kids_Learning">
 
     <TextView
         android:id="@+id/learning"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="182dp"
+        android:layout_height="40dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
         android:gravity="center"
         android:text="Kids Learning"
-        android:textColor="@drawable/button_style"
+        android:textColor="@color/black"
         android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <Button
-        android:id="@+id/English"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginBottom="8dp"
-        android:textColor="@color/color1"
-        android:background="@color/color2"
-        android:text="English"
-        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
 
     <Button
-        android:id="@+id/Hindi"
-        android:layout_width="wrap_content"
+        android:id="@+id/English"
+        android:layout_width="135dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="168dp"
-        android:background="@color/color4"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/color2"
+        android:text="English"
+        android:textColor="@color/color1"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/Hindi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/learning" />
+
+
+    <Button
+        android:id="@+id/Hindi"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="330dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/color4"
         android:text="Hindi"
         android:textColor="@color/color1"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/English" />
 
 </android.support.constraint.ConstraintLayout>

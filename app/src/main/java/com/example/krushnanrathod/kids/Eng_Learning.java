@@ -3,7 +3,7 @@ package com.example.krushnanrathod.kids;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class englearning extends AppCompatActivity {
+public class Eng_Learning extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
