@@ -16,15 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity" />
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".Kids_Learning"
             android:screenOrientation="portrait" />
         <activity android:name=".Videopoems" />
         <activity android:name=".Eng_Learning" />
         <activity android:name=".Hin_Learning" />
-        <activity android:name=".Kids_Games"></activity>
+        <activity android:name=".Kids_Games" />
+        <activity android:name=".Poems" />
     </application>
 
 </manifest>
