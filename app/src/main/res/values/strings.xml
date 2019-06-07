@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Tiny-Tots Learning</string>
+    <string name="story_telling">Story Telling</string>
+    <string name="video_poems">Video Poems</string>
+    <string name="kids_game">Kids Game</string>
+    <string name="kids_learning">Kids Learning</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="marathi">Marathi</string>
+    <string name="the_guessing_game">THE GUESSING GAME</string>
+    <string name="match_the_number">MATCH THE NUMBER</string>
+    <string name="catch_the_number">CATCH THE NUMBER</string>
+    <string name="subway_run">SUBWAY RUN</string>
+    <string name="kids_games">KIDS GAMES</string>
+    <string name="practice">Practice</string>
+
 </resources>

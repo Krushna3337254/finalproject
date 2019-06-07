@@ -15,4 +15,64 @@
 -->
 
 
+    <ImageView
+        android:id="@+id/aaae"
+        android:layout_width="191dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="370dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aaae" />
+
+    <ImageView
+        android:id="@+id/mahine"
+        android:layout_width="191dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mahine" />
+
+    <ImageView
+        android:id="@+id/din"
+        android:layout_width="191dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginBottom="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/din" />
+
+    <ImageView
+        android:id="@+id/fal"
+        android:layout_width="191dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="370dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fal" />
+
+    <ImageView
+        android:id="@+id/rang"
+        android:layout_width="191dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rang" />
+
 </android.support.constraint.ConstraintLayout>

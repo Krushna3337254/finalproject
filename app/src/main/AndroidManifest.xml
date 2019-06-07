@@ -3,12 +3,14 @@
     package="com.example.krushnanrathod.kids">
 
     <application
+        android:screenOrientation="portrait"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Gestures"></activity>
         <activity android:name=".Splash_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +20,7 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity
-            android:name=".Kids_Learning"
-            android:screenOrientation="portrait" />
+            android:name=".Kids_Learning" />
         <activity android:name=".Videopoems" />
         <activity android:name=".Eng_Learning" />
         <activity android:name=".Hin_Learning" />

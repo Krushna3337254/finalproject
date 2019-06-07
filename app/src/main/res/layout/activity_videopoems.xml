@@ -7,18 +7,6 @@
     android:background="@drawable/children2"
     tools:context=".Videopoems">
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifImageView"
-        android:layout_width="93dp"
-        android:layout_height="86dp"
-        android:src="@drawable/birdy_spirit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
 
     <Button
         android:id="@+id/English"
@@ -30,7 +18,7 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/custom_button"
         android:backgroundTint="@color/color4"
-        android:text="English"
+        android:text="@string/english"
         android:textColor="@color/color1"
         android:textSize="18dp"
         app:layout_constraintBottom_toTopOf="@+id/Hindi"
@@ -40,13 +28,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="170dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="78dp"
         android:gravity="center"
-        android:text="VideoPoems"
+        android:text="@string/video_poems"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +51,7 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/custom_button"
         android:backgroundTint="@color/color5"
-        android:text="Hindi"
+        android:text="@string/hindi"
         android:textColor="@color/color1"
         android:textSize="18dp"
         app:layout_constraintBottom_toTopOf="@+id/Marathi"
@@ -81,7 +69,7 @@
         android:layout_marginBottom="316dp"
         android:background="@drawable/custom_button"
         android:backgroundTint="@color/color6"
-        android:text="Marathi"
+        android:text="@string/marathi"
         android:textColor="@color/color1"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"

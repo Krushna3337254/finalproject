@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class Kids_Learning extends AppCompatActivity implements View.OnClickListener {
     TextView learning;
-    Button eng, hin;
+    Button eng, hin, pract;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +19,13 @@ public class Kids_Learning extends AppCompatActivity implements View.OnClickList
         learning=findViewById( R.id.learning );
         eng=findViewById( R.id.English );
         hin=findViewById( R.id.Hindi );
+        pract=findViewById( R.id.practice );
+
 
         eng.setOnClickListener( this );
         hin.setOnClickListener( this );
+        pract.setOnClickListener( this );
+
 
     }
 
@@ -38,6 +42,12 @@ public class Kids_Learning extends AppCompatActivity implements View.OnClickList
                 Intent i1=new Intent( Kids_Learning.this, Hin_Learning.class );
                 overridePendingTransition(R.anim.alpha, R.anim.alpha);
                 startActivity( i1 );
+                break;
+
+            case R.id.practice:
+                Intent i2=new Intent( Kids_Learning.this, Gestures.class );
+                overridePendingTransition(R.anim.alpha, R.anim.alpha);
+                startActivity( i2 );
                 break;
 
         }
